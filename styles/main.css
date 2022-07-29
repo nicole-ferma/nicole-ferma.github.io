@@ -5,6 +5,10 @@ body {
   background: #F9EDDD;
 }
 
+ul {
+  list-style: none;
+}
+
 section {
   position: relative;
   display: flex;
@@ -70,7 +74,7 @@ section {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 50px 50px;
   justify-content: space-between;
 }
@@ -80,6 +84,7 @@ section {
   color: #fbf9f4;
   padding: 20px;
   border-radius: 8px;
+  text-align: center;
 }
 
 button {
