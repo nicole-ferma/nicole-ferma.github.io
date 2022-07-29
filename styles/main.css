@@ -101,3 +101,6 @@ button:hover {
   box-shadow: none;
 }
 
+a {
+  text-decoration: none;
+}
