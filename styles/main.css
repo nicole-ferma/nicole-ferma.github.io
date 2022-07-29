@@ -25,3 +25,45 @@ section {
 .projects {
   background: #F9EDDD
 }
+
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 99px;
+}
+
+.curve .shape-fill {
+  fill: #F9EDDD;
+}
+
+.curve-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve-two svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 62px;
+  transform: rotateY(180deg);
+}
+
+.curve-two .shape-fill {
+  fill: #FFFAF4;
+}
