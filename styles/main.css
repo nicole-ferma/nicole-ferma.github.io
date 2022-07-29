@@ -67,3 +67,17 @@ section {
 .curve-two .shape-fill {
   fill: #FFFAF4;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 50px 50px;
+  justify-content: space-between;
+}
+
+.grid-item {
+  background: #282828;
+  color: #fbf9f4;
+  padding: 20px;
+  border-radius: 8px;
+}
