@@ -113,3 +113,34 @@ a {
 .logo {
   max-width: 80px;
 }
+
+.project-1,
+.project-2 {
+  color: #fff;
+  padding: 10%;
+  width: 100%;
+  height: 100%;
+  margin: 0 -15px;
+}
+
+.project-1 {
+  background: #9cdeab;
+  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+}
+
+.project-2 {
+  background: #c4c8ee;
+  border-radius: 80% 30% 50% 50%/50%;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  background: #F9EDDD;
+}
+
+@media (max-width: 1500px) {
+  .projects {
+    flex-direction: column;
+  }
+}
