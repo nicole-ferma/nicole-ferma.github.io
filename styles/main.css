@@ -117,10 +117,10 @@ a {
 .project-1,
 .project-2 {
   color: #fff;
-  padding: 10%;
-  width: 100%;
+  max-width: 500px;
   height: 100%;
   margin: 0 -15px;
+  padding: 50px 100px;
 }
 
 .project-1 {
@@ -130,17 +130,22 @@ a {
 
 .project-2 {
   background: #c4c8ee;
-  border-radius: 80% 30% 50% 50%/50%;
+  border-radius: 70% 30% 50% 50%/50%;
 }
 
-.projects {
+.blobs {
   display: flex;
   justify-content: center;
-  background: #F9EDDD;
+  text-align: center;
 }
 
 @media (max-width: 1500px) {
-  .projects {
+  .blobs {
     flex-direction: column;
+    width: 100%;
+  }
+  .project-1,
+  .project-2 {
+    margin: 0 auto;
   }
 }
