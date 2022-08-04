@@ -3,6 +3,7 @@ body {
   font-family: 'Uchen', sans-serif;
   color: #353638;
   background: #F9EDDD;
+  scroll-behavior: smooth;
 }
 
 ul {
