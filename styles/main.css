@@ -126,7 +126,7 @@ a {
 
 .project-1 {
   background: #9cdeab;
-  border-radius: 50% 50% 50% 70%/50% 50% 70% 60%;
+  border-radius: 70% 50% 50% 60%/50% 50% 70% 60%;
 }
 
 .project-2 {
@@ -140,7 +140,7 @@ a {
   text-align: center;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .blobs {
     flex-direction: column;
     width: 100%;
@@ -148,5 +148,6 @@ a {
   .project-1,
   .project-2 {
     margin: 0 auto;
+    padding: 50px 100px 70px 100px;
   }
 }
