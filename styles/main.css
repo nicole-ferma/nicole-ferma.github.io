@@ -10,6 +10,14 @@ ul {
   list-style: none;
 }
 
+.item {
+  transition: 0.5s;
+}
+
+.item:hover {
+  color:#c4c8ee;
+}
+
 section {
   position: relative;
   display: flex;
@@ -113,6 +121,12 @@ a {
 
 .logo {
   max-width: 80px;
+  transition: 0.8s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
 }
 
 .project-1,
@@ -122,6 +136,13 @@ a {
   height: 100%;
   margin: 0 -15px;
   padding: 50px 100px;
+  transition: 0.8s;
+}
+
+.project-1:hover,
+.project-2:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.08);
 }
 
 .project-1 {
@@ -138,9 +159,14 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-bottom: 85px;
 }
 
 @media (max-width: 1600px) {
+  .projects {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
   .blobs {
     flex-direction: column;
     width: 100%;
