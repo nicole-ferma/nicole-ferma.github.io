@@ -10,6 +10,11 @@ ul {
   list-style: none;
 }
 
+.cursive {
+  font-family: 'La Belle Aurore', sans-serif;
+  font-size: 2em;
+}
+
 .item {
   transition: 0.5s;
 }
