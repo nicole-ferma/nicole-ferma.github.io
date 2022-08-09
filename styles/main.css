@@ -135,7 +135,8 @@ a {
 }
 
 .project-1,
-.project-2 {
+.project-2,
+.project-3 {
   color: #fff;
   max-width: 500px;
   height: 100%;
@@ -145,7 +146,8 @@ a {
 }
 
 .project-1:hover,
-.project-2:hover {
+.project-2:hover,
+.project-3:hover {
   transform: scale(1.2);
   -webkit-transform: scale(1.08);
 }
@@ -160,8 +162,14 @@ a {
   border-radius: 70% 30% 50% 50%/50%;
 }
 
+.project-3 {
+  background: #ffeda6;
+  border-radius: 50% 30% 50% 50%/50%;
+}
+
 .blobs {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
   margin-bottom: 85px;
@@ -173,7 +181,6 @@ a {
     padding-right: 5px;
   }
   .blobs {
-    flex-direction: column;
     width: 100%;
   }
   .project-1,
