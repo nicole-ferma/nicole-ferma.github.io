@@ -20,8 +20,9 @@ ul {
 }
 
 .item:hover {
-  color:#c4c8ee;
-}
+  list-style-image: url('../images/star.png');
+  font-size: 1.08em;
+} 
 
 section {
   position: relative;
@@ -33,7 +34,8 @@ section {
 }
 
 .header {
-  background: #F9EDDD
+  background: #F9EDDD;
+  text-align: center;
 }
 
 .about {
@@ -163,7 +165,7 @@ a {
 }
 
 .project-3 {
-  background: #ffeda6;
+  background: #fdca7d;
   border-radius: 70% 50% 50% 60%/50% 50% 70% 60%;
 }
 
