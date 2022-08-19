@@ -13,6 +13,7 @@ ul {
 .cursive {
   font-family: 'La Belle Aurore', sans-serif;
   font-size: 2em;
+  color: #6d76ac;
 }
 
 .item {
@@ -172,7 +173,7 @@ svg {
 }
 
 .project-1 {
-  background: #937165;
+  background: #b2b2b2;
   border-radius: 70% 50% 50% 60%/50% 50% 70% 60%;
 }
 
