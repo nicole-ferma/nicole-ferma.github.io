@@ -140,7 +140,7 @@ a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 70px;
   height: 100%;
   text-align: left;
   overflow: hidden;
@@ -172,17 +172,17 @@ svg {
 }
 
 .project-1 {
-  background: #9cdeab;
+  background: #937165;
   border-radius: 70% 50% 50% 60%/50% 50% 70% 60%;
 }
 
 .project-2 {
-  background: #c4c8ee;
+  background: #d0d3e6;
   border-radius: 70% 30% 50% 50%/50%;
 }
 
 .project-3 {
-  background: #fdca7d;
+  background: #6B6166;
   border-radius: 70% 50% 50% 60%/50% 50% 70% 60%;
 }
 
