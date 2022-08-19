@@ -2,28 +2,21 @@ body {
   margin: 0;
   font-family: 'Uchen', sans-serif;
   color: #353638;
-  background: #F9EDDD;
+  background: #f9eddd;
   scroll-behavior: smooth;
+}
+
+h2 {
+  letter-spacing: 2px;
+}
+
+a {
+  text-decoration: none;
 }
 
 ul {
   list-style: none;
 }
-
-.cursive {
-  font-family: 'La Belle Aurore', sans-serif;
-  font-size: 2em;
-  color: #6d76ac;
-}
-
-.item {
-  transition: 0.5s;
-}
-
-.item:hover {
-  list-style-image: url('../images/star.png');
-  font-size: 1.08em;
-} 
 
 section {
   position: relative;
@@ -34,74 +27,9 @@ section {
   padding: 100px 20vw;
 }
 
-.header {
-  background: #F9EDDD;
-  text-align: center;
-}
-
-.about {
-  background: #FFFAF4
-}
-
-.projects {
-  background: #F9EDDD
-}
-
-.curve {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.curve svg {
-  position: relative;
-  display: block;
-  width: calc(144% + 1.3px);
-  height: 99px;
-}
-
-.curve .shape-fill {
-  fill: #F9EDDD;
-}
-
-.curve-two {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.curve-two svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 62px;
-  transform: rotateY(180deg);
-}
-
-.curve-two .shape-fill {
-  fill: #FFFAF4;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 50px 50px;
-  justify-content: space-between;
-}
-
-.grid-item {
-  background: #282828;
-  color: #fbf9f4;
-  padding: 20px;
-  border-radius: 8px;
-  text-align: center;
+svg {
+  display: inline-block;
+  height: 100%;
 }
 
 button {
@@ -123,8 +51,89 @@ button:hover {
   box-shadow: none;
 }
 
-a {
-  text-decoration: none;
+.cursive {
+  font-family: 'La Belle Aurore', sans-serif;
+  font-size: 2em;
+  color: #6d76ac;
+}
+
+.item {
+  transition: 0.5s;
+}
+
+.item:hover {
+  list-style-image: url('../images/star.png');
+  letter-spacing: 2px;
+} 
+
+.header {
+  background: #f9eddd;
+  text-align: center;
+}
+
+.about {
+  background: #fffaf4;
+}
+
+.projects {
+  background: #f9eddd;
+}
+
+.curve {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.curve svg {
+  position: relative;
+  display: block;
+  width: calc(144% + 1.3px);
+  height: 99px;
+}
+
+.curve .shape-fill {
+  fill: #f9eddd;
+}
+
+.curve-two {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.curve-two svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 62px;
+  transform: rotateY(180deg);
+}
+
+.curve-two .shape-fill {
+  fill: #fffaf4;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 50px 50px;
+  justify-content: space-between;
+}
+
+.grid-item {
+  background: #282828;
+  color: #fbf9f4;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
 }
 
 .logo {
@@ -147,11 +156,6 @@ a {
   overflow: hidden;
   z-index: 1;
   margin-left: 25px;
-}
-
-svg {
-  display: inline-block;
-  height: 100%;
 }
 
 .project-1,
@@ -183,7 +187,7 @@ svg {
 }
 
 .project-3 {
-  background: #6B6166;
+  background: #6b6166;
   border-radius: 70% 50% 50% 60%/50% 50% 70% 60%;
 }
 
