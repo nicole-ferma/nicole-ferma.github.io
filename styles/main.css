@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    font-family: 'Uchen', sans-serif;
-    color: #353638;
+    font-family: 'Space Mono', sans-serif;
+    color: #fff;
     background: #f9eddd;
     scroll-behavior: smooth;
 }
@@ -31,7 +31,7 @@ svg {
 .cursive {
     font-family: 'La Belle Aurore', sans-serif;
     font-size: 2em;
-    color: #dd4d2b;
+    color: #fff;
 }
 
 .item {
@@ -39,17 +39,16 @@ svg {
 }
 
 .item:hover {
-    list-style-image: url('../images/star.png');
     letter-spacing: 2px;
 } 
 
 .header {
-    background: #f9eddd;
+    background: #3b76c7;
     text-align: center;
 }
 
 .about {
-    background: #fffaf4;
+    background: #7D9B8C;
 }
 
 .curve {
@@ -69,7 +68,7 @@ svg {
 }
 
 .curve .shape-fill {
-    fill: #f9eddd;
+    fill: #3b76c7;
 }
 
 .logo {
